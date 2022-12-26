@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 100vh;
+}
+.phoneScreen{
+    height:600px;
+    width:330px;
+    background-image:url("../../images/molly.png");
+    color:white;
+    position: relative;
+    background-size: cover;
+}
+.infoBar{
+    display:flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.infoLeft{
+    list-style: none;
+    display: flex;
+}
+.infoLeft li{
+    margin-right: 10px;
+}
+.infoRight{
+    list-style: none;
+    display:flex;
+}
+.infoRight li{
+    margin-left: 10px;
+}
+.passcode{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.passcode i{
+    padding-bottom: 15px;
+}
+h1{
+    width:65%;
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 8px;
+}
+h3{
+    width: 65%;
+    font-size: 12px;
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+.digits{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    justify-content: center;
+}
+.digits li{
+    padding: 4px;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: 200;
+    width: 50px;
+    height: 50px;
+    border:2px solid white;
+    border-radius: 50%;
+    background: rgba(47, 47, 47, 0.37);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   transition: 0.2s;
+   cursor: pointer;
+}
+.digits li:hover{
+    background: rgba(164, 162, 162, 0.37);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+.bottom-border{
+    position: absolute;
+    bottom:0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width:100%;
+}
+.shortcuts{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    list-style:none;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 15px;
+}
+
+.navbar{
+    background-color: antiquewhite;
+    width:150px;
+    height: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    
+}
+
+

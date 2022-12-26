@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>upsettit</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        body{
+            height: 10000px;
+            position: relative;
+        }
+        nav{display: flex;
+            flex-direction: row;
+            max-width:100%;
+            padding-left: 10%;
+            padding-right: 10%;
+            background-color: aquamarine;
+            position: sticky;
+            top: 0;
+
+        }
+        ul{
+            display: flex;
+            flex-direction:row;
+            width: 100%;
+            height: auto;
+            justify-content: space-around;
+            align-items: center;
+            list-style: none;
+        }
+        img{
+            scale: 90%;
+            max-width: 100px;
+        }
+        a{
+            text-decoration: none;
+            cursor: zoom-in;
+        }
+        li:hover{
+            background-color: black;
+        }
+        li{
+            transition: .2s;
+        }
+        .active{
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+        }
+        .active ul{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding-left: 20px;
+        }
+        .active li{
+            margin-top: 8px;
+            margin-bottom: 8px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <img src="https://www.mcdonalds.com/content/dam/sites/usa/nfl/icons/arches-logo_108x108.jpg">
+        <ul>
+            <li><a href="https://www.mcdonalds.com/us/en-us.html">link1</a></li>
+            <li><a href="https://www.mcdonalds.com/us/en-us.html">link2</a></li>
+            <li><a href="https://www.mcdonalds.com/us/en-us.html">link3</a></li>
+            <li><a href="https://www.mcdonalds.com/us/en-us.html">link4</a></li>
+
+        </ul>
+    </nav>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi id sunt, reprehenderit delectus, molestiae corrupti vero nesciunt esse nobis iusto aperiam aliquam eum? Quos atque quis nemo totam quaerat tenetur.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem similique aut in voluptate perferendis autem labore veritatis veniam, nulla minima voluptatibus provident quasi vero temporibus velit atque. Suscipit, delectus blanditiis!
+    </p>
+
+    <script>
+        const navBar = document.querySelector(".nav");
+        navBar.addEventListener("click", ()=>{
+            navBar.classList.toggle("active")
+        })
+    </script>
+    
+</body>
+</html>

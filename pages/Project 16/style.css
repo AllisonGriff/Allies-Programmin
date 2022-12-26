@@ -1,0 +1,46 @@
+*{
+    margin:0;
+    padding:0;
+}
+:root{
+    --bg-color: #18191A;
+    --container-color-1: #303031;
+    --text-color: #B0B3B8;
+    --blue-1: #3F5CF4 ;
+}
+.wrapper{
+    display:flex;
+    justify-content: center;
+}
+nav{
+    height: 30px;
+}
+body{
+    background-color:var(--bg-color)
+}
+.reel{
+    width:75%;
+    display: flex;
+   
+
+
+}
+.reel img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 6%;
+    
+}
+.reel li{
+    width:100px;
+    height:150px;
+    background-color: #303031;
+    list-style: none;
+    border-radius: 6%;
+}
+.reel ul{
+    display:flex;
+    justify-content:space-evenly;
+    
+}

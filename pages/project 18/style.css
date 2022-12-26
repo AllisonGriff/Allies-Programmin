@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 100vh;
+}
+.phoneScreen{
+    height:600px;
+    width:330px;
+    background-image:url("../../images/molly.png");
+    color:white;
+    position: relative;
+    background-size: cover;
+}
+.infoBar{
+    display:flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.infoLeft{
+    list-style: none;
+    display: flex;
+}
+.infoLeft li{
+    margin-right: 10px;
+}
+.infoRight{
+    list-style: none;
+    display:flex;
+}
+.infoRight li{
+    margin-left: 10px;
+}
+.timedate{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 30px
+}
+.date{
+    padding-top: 15px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+}
+.time{
+    padding-top:15px;
+    font-size: 65px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 900;
+    text-decoration:none ;
+}
+.bottom-border{
+    position: absolute;
+    bottom:0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width:100%;
+}
+.shortcuts{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    list-style:none;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.shortcuts li{
+    width: 50px;
+    height: 50px;
+    border:2px solid white;
+    border-radius: 50%;
+    background: rgba(47, 47, 47, 0.37);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar{
+    background-color: antiquewhite;
+    width:150px;
+    height: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+

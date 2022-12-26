@@ -1,0 +1,52 @@
+/* hello kevin
+you are a hunky piece of meats
+rawr XD */
+/* 393A10 oomf  B1B695 dash  A690A4 primary 5E4B56 lilbitofthis AFD2E9 forflavor */
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@700&family=Oswald:wght@500&family=Rubik+Spray+Paint&display=swap%27');
+/* font-family: 'Alexandria', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Rubik Spray Paint', cursive; */
+/* root allows you to hold all places where value is established to change them at once */
+:root{
+    --oomf-color:#543d21;
+    --dash-color:#B1B695;
+    --primary-color:#A690A4;
+    --lilbitofthis-color:#5E4B56;
+    --forflavor-color:#AFD2E9;
+    --one-font: 'Alexandria', sans-serif;
+    --two-font:'Oswald', sans-serif;
+
+}
+*{
+    padding: 0;
+    margin:0;
+}
+div{
+    min-height: 200px;
+}
+.colorone{
+    background-color: var(--oomf-color);
+    color:var(--dash-color);
+    font-family:'Alexandria' ;
+}
+.colortwo{
+    background-color: var(--dash-color);
+    color:var(--oomf-color);
+    font-family:'Oswald' ;
+}
+.colour3{
+    background-color: #A690A4;
+    color: #5E4B56;
+    font-family:'Alexandria' ;
+}
+.colorfour{
+    background-color:#5E4B56 ;
+    color: #AFD2E9;
+    font-family:'Alexandria' ;
+}
+   
+.colorfive{
+    background:#AFD2E9;
+    color:#A690A4;
+    font-family:'Alexandria' ;
+}
