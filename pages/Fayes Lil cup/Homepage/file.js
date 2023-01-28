@@ -5,7 +5,7 @@
 // document.title="Molly"
 
 // console.log(document.querySelector("h1"))
-const ourh1=document.querySelector("main")
+const ourmain=document.querySelector("main")
 // console.log(ourh1)
 // // ourh1.style.backgroundColor="#444555"
 // const grabWalk=document.querySelector(".takeWalk")
