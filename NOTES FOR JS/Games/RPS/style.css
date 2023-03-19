@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #395d35;
+}
+
+h1{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+ul{
+    margin-right: auto;
+    margin-left: auto;
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+}
+li{
+    list-style: none;
+}
+p{ 
+    text-align: center;
+    font-weight: 600;
+    font-family: sans-serif;
+    padding-top: 15px;
+    color: #000000;
+}
