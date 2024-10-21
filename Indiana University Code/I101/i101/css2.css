@@ -1,0 +1,32 @@
+.backgrounds{
+    background-image:url('images/samplegates.jpg');
+    height: 290px;
+    width: 450px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.iu{
+    color:#ffffff;
+    font-weight: bold;
+}
+.iuplace{
+    padding: 7px;
+}
+
+.div1, .div2{
+    border: 2px solid black;
+    color: blue;
+    border-radius: 25px;
+    margin:4px;
+}
+.div2{
+    color: red;
+}
+.luddy{
+    font-weight: 600;
+    font-size: 20px;
+}
+.major{
+    font-style: italic;
+    color:black;
+}

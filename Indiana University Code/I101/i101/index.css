@@ -1,0 +1,18 @@
+
+li{
+    list-style-type: none;
+    float: left;
+    border-right-color: #bbb;
+    border-right-width: 1px;
+    border-right-style: solid;
+}
+li a {
+    display: block;
+    color: white;
+    padding:20px;
+    text-align:center;
+    background-color: crimson;
+}
+li a:hover{
+    background-color:#111;
+}
