@@ -1,0 +1,30 @@
+/* body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    background: black;
+}
+
+.starry-background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0) 20%);
+    background-size: 3px 3px;
+    background-color: black;
+    animation: twinkling 1.5s infinite alternate;
+    opacity: 0.7;
+}
+
+/* Keyframes for the twinkling effect */
+/* @keyframes twinkling {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 3px 3px;
+        opacity: 0.9;
+    }
+} */ 
