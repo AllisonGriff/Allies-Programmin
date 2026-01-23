@@ -29,13 +29,44 @@ On the "Create a new repository" page:
       ```bash
      git add .
      ```
-  5. then
-  ```bash
-git commit -m " initial Commit"
-```
-  6. fff
-  7. fff
-  8. fff
-  9. fff
-  10. 
+  5. then commit files:
+    ```bash
+    git commit -m " initial Commit"
+    ```
+  6. If this is your first time running git you may need to add your account info
+     ```bash
+     git config --global user.name "Your Name"
+     git config --global user.email "you@example.com"
+     ```
+
+  7. Connect your local folder to GitHub
+     Go back to the Github page that you left open.
+
+     You should see a section called "**... or push an existing repository from the command line**"
+     Copy only the line that looks like this (example):
+     ```bash
+     git remote add origin https://github.com/yourusername/my-first-project.git
+     ```
+     Paste in the VS Code terminal and press **Enter**
+  
+  9. Push your code to GitHub
+      ```bash
+      git branch -M main
+      ```
+      ```bash
+      git push -u origin main
+      ```
+      -GitHub may open a browser window asking you to log in
+      -approve the conection
      
+  ### Part 3-- Verify it worked
+  1. Go back to your GitHub repo page
+  2. Refresh the page
+     **Your files Should now be there!**
+
+  ### Part 4- Future Updates (Super Important)
+  ```bash
+git add .
+git commit -m "Describe what you changed"
+git push
+```
