@@ -1,5 +1,5 @@
 # This is a Dumping Ground.
-This is the first repository I ever made and I am learning the proper way to utalize GitHub. 
+This is the first repository I ever made and I am learning the proper way to utilize GitHub. 
 
 
 
